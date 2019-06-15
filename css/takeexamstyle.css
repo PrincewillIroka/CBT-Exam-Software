@@ -1,0 +1,256 @@
+#take-exam-section {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    padding: 20px 20px 0px 20px;
+    margin: 0px;
+}
+
+.actual-exam {
+    background-color: white;
+    border-radius: 5px;
+    height: 550px;
+    width: 70%;
+    margin-right: 2%;
+}
+
+.actual-exam-question-numbers {
+    background-color: white;
+    border-radius: 5px;
+    height: 550px;
+    width: 28%;
+}
+
+.questions-header {
+    background-color: rgb(3, 155, 229, 0.7);
+    height: 30px;
+    /**align-content: center;
+    justify-content: center;**/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+}
+
+.header-text {
+    font-size: 17px;
+    color: white;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+.questions-body {}
+
+.my-hr {
+    background-color: #EAEDF1;
+    height: 1px;
+    margin: 15px;
+}
+
+.questions-filler {
+    height: 390px;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.question-number {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.question-number span {
+    margin-left: 10px;
+}
+
+.current-question {
+    overflow-y: auto;
+    height: 130px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Arial;
+    word-spacing: 3px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    /**background-color: #F0F0F0;**/
+}
+
+.current-options {
+    margin: 20px 0px 20px 0px;
+    height: 45%;
+    max-height: 45%;
+    overflow: auto;
+}
+
+
+/* Customize the label (the checkbox-container) */
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.checkbox-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.checkbox-container input:checked~.checkmark {
+    background-color: #4EB8ED;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.checkbox-container .checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+}
+
+.control-buttons {
+    height: 70px;
+    width: auto;
+    background-color: #EAEDF1;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+
+.same-button:hover {
+    box-shadow: 3px 8px 16px 3px rgba(0, 8, 12, 0.5);
+}
+
+.button {
+    background-color: rgb(3, 155, 229, 0.7);
+    border: none;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 15px 50px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+    transition: 0.2s;
+}
+
+.finish-button {
+    border: none;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 15px 50px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+    background-color: rgba(76, 175, 80);
+    transition: 0.2s;
+}
+
+.finish-button:hover {
+    box-shadow: 3px 8px 16px 3px rgba(0, 0, 0, 0.5);
+}
+
+.guidelines-icon {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 20px;
+    width: 20x;
+}
+
+.white-guidelines {
+    padding: 10px 0px 0px 10px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: row;
+}
+
+.grey-guidelines {
+    background-color: #EAEDF1;
+    padding: 10px 0px 0px 10px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: row;
+}
+
+.seventy-percent {
+    width: 45%;
+    font-size: 18px;
+}
+
+.thirty-percent {
+    width: 55%;
+    font-size: 18px;
+}
+
+.question-palatte {
+    margin: 10px 15px 0px 15px;
+    height: auto;
+    overflow-y: auto;
+    background-color: chocolate;
+}

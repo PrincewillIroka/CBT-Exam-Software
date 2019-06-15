@@ -1,0 +1,115 @@
+h1 {
+    color: rgb(11, 40, 75);
+    text-align: center;
+    margin-top: 5%;
+}
+
+h2 {
+    float: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-pane {
+    width: 40%;
+    justify-content: center;
+    height: 40%;
+    box-shadow: 2px 2px 5px 5px #ccc;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+/* .login-pane:hover {
+    box-shadow: 2px 2px 6px 6px #EAEDF1;
+} */
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.centralize-children {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.special-span {
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.data-field:focus {
+    border: 1px solid rgb(11, 40, 75);
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+.data-field {
+    box-sizing: border-box;
+    width: 220px;
+    height: 35px;
+    margin-left: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+#password-field {
+    margin-bottom: 15px;
+}
+
+#pIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+#login-button {
+    padding: 8px;
+    border-radius: 3px;
+    width: 220px;
+    height: 35px;
+    background-color: rgb(11, 40, 75);
+    color: white;
+    border: transparent;
+    margin-left: 135px;
+    font-size: 15px;
+}
+
+#login-button:hover {
+    background-color: cornflowerblue;
+}
+
+body {
+    background-color: #EAEDF1;
+}

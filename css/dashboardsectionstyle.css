@@ -1,0 +1,605 @@
+.dashboard-section-top {
+    display: flex;
+    flex-flow: row;
+    padding: 20px 0px 0px 50px;
+    margin: 0px;
+}
+
+.total-number-of {
+    height: 140px;
+    width: 220px;
+    /**background-color: #8CA3B6;**/
+    background-color: #4EB8ED;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 15px;
+    border-radius: 5px;
+    /**box-shadow: 1px 1px 1px 1px #8CA3B6;**/
+}
+
+.total-number-of h3,
+.total-number-of h2 {
+    text-align: center;
+}
+
+.dashboard-exams-and-users {
+    height: 370px;
+    width: auto;
+    margin: 30px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-exams {
+    height: inherit;
+    width: 47.5%;
+    background-color: white;
+    margin-right: 4.7%;
+    border-radius: 5px;
+}
+
+.dashboard-users {
+    height: inherit;
+    width: 47.5%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ac-hr {
+    background-color: #EAEDF1;
+    height: 1px;
+    margin: 5px 2px 15px 2px;
+}
+
+.ac-text {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.academic-three-parent {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.academic-three {
+    height: 120px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #EAEDF1;
+    /**box-shadow: 1px 0.5px 0.5px 1px 0.8;**/
+    box-shadow: 2px 2px 2px 2px #EAEDF1;
+    cursor: default;
+}
+
+.fi {
+    margin-left: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.se {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.th {
+    margin-right: 15px;
+}
+
+.as-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 10px auto 15px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.as-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.vs-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 0px auto 10px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.vs-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.at-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 10px auto 15px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.at-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.vt-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 0px auto 10px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.vt-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.aj-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 10px auto 15px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.aj-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.vj-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 0px auto 10px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.vj-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.an-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 10px auto 15px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.an-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.vn-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 0px auto 10px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.vn-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.ar-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 10px auto 15px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.ar-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.vr-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 0px auto 10px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.vr-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.am-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 10px auto 15px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.am-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.vm-btn {
+    border: 1px solid #8CA3B6;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: max-content;
+    font-family: Verdana, "Geneva", sans-serif;
+    margin: 0px auto 10px auto;
+    box-shadow: 1px 1px 1px 1px #8CA3B6;
+    color: #8CA3B6;
+}
+
+.vm-btn:hover {
+    background-color: #4EB8ED;
+    color: white;
+    border: 1px solid transparent;
+}
+
+#student-class {
+    color: rgb(70, 69, 69);
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 15%;
+    padding-top: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 0px 1px 1px #8CA3B6, 0px 1px 1px 1px #8CA3B6, 1px 0px 1px 1px #8CA3B6, 0px 1px 1px 1px #8CA3B6;
+    -moz-box-shadow: 1px 0px 1px 1px #8CA3B6, 0px 1px 1px 1px #8CA3B6, 1px 0px 1px 1px #8CA3B6, 0px 1px 1px 1px #8CA3B6;
+    box-shadow: 1px 0px 1px 1px #8CA3B6, 0px 1px 1px 1px #8CA3B6, 1px 0px 1px 1px #8CA3B6, 0px 1px 1px 1px #8CA3B6;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dialog-content {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.centralize-children {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.special-span {
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+
+/* input[type=text]:focus {
+    border: rgb(12, 65, 134);
+} */
+
+.data-field {
+    box-sizing: border-box;
+    width: 220px;
+    height: 32px;
+    margin-left: 70px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+
+.data-field:focus {
+    border: 1px solid blue;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.save-button {
+    background-color: rgb(76, 175, 80);
+    color: white;
+}
+
+.save-button:hover,
+focus {
+    background-color: rgba(76, 175, 80, 0.7);
+    border: none;
+}
+
+.cancel-button {
+    background-color: #e64135;
+    color: white;
+}
+
+.cancel-button:hover,
+focus {
+    background-color: #ed7a71;
+}
+
+#sav-can {
+    margin-top: 40px;
+    padding-left: 95px;
+}
+
+#cancel-session {
+    margin-left: 80px;
+}
+
+#term-first-row {
+    margin-bottom: 20px;
+}
+
+[type="date"] {
+    background: #fff url("../images/calendar-icon.png") 97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 210px;
+    font-size: 16px;
+}
+
+.datepicker {
+    margin-left: 30px;
+}
+
+#sav-can2 {
+    margin-top: 30px;
+    padding-left: 55px;
+}
+
+#save-term {
+    margin-right: 80px;
+}
+
+#save-subject {
+    margin-right: 80px;
+}
+
+#add-can-st {
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+#cancel-student {
+    margin-left: 370px;
+}
+
+#cancel-teacher {
+    margin-left: 370px;
+}
+
+#cancel-name-of-class {
+    margin-left: 80px;
+}
+
+.inv {
+    margin-top: 30px;
+}
+
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+
+#snackbar {
+    visibility: hidden;
+    min-width: 100px;
+    margin-left: -125px;
+    /* Divide value of min-width by 2 */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px;
+    position: fixed;
+    /* Sit on top of the screen */
+    z-index: 1;
+    /* Add a z-index if needed */
+    left: 50%;
+    /* Center the snackbar */
+    bottom: 30px;
+    /* 30px from the bottom */
+}
+
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+
+#snackbar.show {
+    visibility: visible;
+    /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+   However, delay the fade out process for 1.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 1.5s;
+    animation: fadein 0.5s, fadeout 0.5s 1.5s;
+}
+
+
+/* Animations to fade the snackbar in and out */
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
