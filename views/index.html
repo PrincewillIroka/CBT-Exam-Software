@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CBT Exam Software">
+    <meta name="keywords" content="CBT,Exam,Online Exam">
+    <meta name="author" content="John Doe">
+
+    <link rel="stylesheet" href="../css/questionsection.css" type="text/css">
+    <link rel="stylesheet" href="../css/takeexamstyle.css" type="text/css">
+    <link rel="stylesheet" href="../css/dashboardsectionstyle.css" type="text/css">
+    <link rel="stylesheet" href="../css/indexstyle.css" type="text/css">
+
+    <title>CBT Exam Software</title>
+
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <header>
+            <span class="trade-mark">CBT Exam Software</span>
+            <div class="log-out-section"><span class="log-out-text"><img class="log-out-icon"
+                        src="../images/log-out-icon.png">Log Out</span></div>
+        </header>
+        <div class="flex-container">
+            <div class="dashboard">
+                <img class="banner" src="../images/students-taking-exams-with-computers2.jpg">
+                <div class="dashboard-items">
+                    <div id="dashboard-navigator1" class="actual-dashboard-items actyv">
+                        <img class="dashboard-icons" src="../images/dashboard-icon.png">
+                        <span class="dashboard-items-text">Dashboard</span>
+                    </div>
+                    <div id="dashboard-navigator2" class="actual-dashboard-items">
+                        <img class="dashboard-icons" src="../images/take-exam-icon.png">
+                        <span class="dashboard-items-text">Take Exam</span>
+                    </div>
+                    <div id="dashboard-navigator3" class="actual-dashboard-items">
+                        <img class="dashboard-icons" src="../images/questions-icon.png">
+                        <span class="dashboard-items-text">Questions</span>
+                    </div>
+                    <div id="dashboard-navigator4" class="actual-dashboard-items">
+                        <img class="dashboard-icons" src="../images/students-icon.png">
+                        <span class="dashboard-items-text st">Students</span>
+                    </div>
+                    <div id="dashboard-navigator5" class="actual-dashboard-items">
+                        <img class="dashboard-icons" src="../images/result-icon.png">
+                        <span class="dashboard-items-text">View Result</span>
+                    </div>
+                    <div id="dashboard-navigator6" class="actual-dashboard-items">
+                        <img class="dashboard-icons" src="../images/settings-icon.png">
+                        <span class="dashboard-items-text">Settings</span>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div id="dashboard-section">
+                    <div class="dashboard-section-top">
+                        <div class="total-number-of">
+                            <h3>Total No. of Questions</h3>
+                            <h2>1250</h2>
+                        </div>
+                        <div class="total-number-of">
+                            <h3>Total No. of Subjects</h3>
+                            <h2>13</h2>
+                        </div>
+                        <div class="total-number-of">
+                            <h3>Total No. of Students</h3>
+                            <h2>200</h2>
+                        </div>
+                        <div class="total-number-of">
+                            <h3>Total No. of Teachers</h3>
+                            <h2>18</h2>
+                        </div>
+                    </div>
+                    <div class="dashboard-exams-and-users">
+                        <div class="dashboard-exams">
+
+                            <div class="ac-text">Academics</div>
+                            <div class="ac-hr"></div>
+                            <!--<div class="tab">
+                                <button class="tablinks" onclick="openCity(event, 'London')">Session</button>
+                                <button class="tablinks" onclick="openCity(event, 'Paris')">Term</button>
+                                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Subject</button>
+                            </div>
+                            //Tab content 
+                            <div id="London" class="tabcontent">
+                                <h3>London</h3>
+                                <p>London is the capital city of England.</p>
+                            </div>
+
+                            <div id="Paris" class="tabcontent">
+                                <h3>Paris</h3>
+                                <p>Paris is the capital of France.</p>
+                            </div>
+
+                            <div id="Tokyo" class="tabcontent">
+                                <h3>Tokyo</h3>
+                                <p>Tokyo is the capital of Japan.</p>
+                            </div>-->
+                            <div class="academic-three-parent">
+                                <div class="academic-three fi">
+                                    <div class="as-btn">
+                                        Add Session
+                                    </div>
+                                    <div class="vs-btn">
+                                        View Sessions
+                                    </div>
+                                </div>
+                                <div class="academic-three se">
+                                    <div class="at-btn">
+                                        Add Term
+                                    </div>
+                                    <div class="vt-btn">
+                                        View Terms
+                                    </div>
+                                </div>
+                                <div class="academic-three th">
+                                    <div class="aj-btn">
+                                        Add Subject
+                                    </div>
+                                    <div class="vj-btn">
+                                        View Subjects
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ac-text">Users</div>
+                            <div class="ac-hr"></div>
+                            <div class="academic-three-parent">
+                                <div class="academic-three fi">
+                                    <div class="an-btn">
+                                        Add Student
+                                    </div>
+                                    <div class="vn-btn">
+                                        View Students
+                                    </div>
+                                </div>
+                                <div class="academic-three se">
+                                    <div class="ar-btn">
+                                        Add Teacher
+                                    </div>
+                                    <div class="vr-btn">
+                                        View Teachers
+                                    </div>
+                                </div>
+                                <div class="academic-three th">
+                                    <div class="am-btn">
+                                        Add Class
+                                    </div>
+                                    <div class="vm-btn">
+                                        View Classes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-users">
+                            <div class="ac-text">Statistics</div>
+                            <div class="ac-hr"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="take-exam-section">
+                    <div class="actual-exam">
+                        <div class="questions-header">
+                            <span class="header-text">Question</span>
+                        </div>
+                        <div class="questions-body">
+                            <div class="my-hr"></div>
+                            <div class="questions-filler">
+                                <h3 class="question-number">Question <span id="cQ"></span><span>of</span><span
+                                        id="tQ">50</span></h3>
+                                <div class="current-question">
+
+                                </div>
+                                <div class="current-options">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <div id="optionA"></div>
+                                    </label>
+
+                                    <label class="checkbox-container">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <div id="optionB"></div>
+                                    </label>
+
+                                    <label class="checkbox-container">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <div id="optionC"></div>
+                                    </label>
+
+                                    <label class="checkbox-container">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <div id="optionD"></div>
+                                    </label>
+
+                                    <!-- <label class="checkbox-container">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <div id="optionE"></div>
+                                    </label> -->
+
+                                </div>
+                            </div>
+                            <div class="control-buttons">
+                                <div class="button same-button" id="previous-button">Previous</div>
+                                <div class="button same-button" id="next-button">Next</div>
+                                <div class="button same-button" id="clear-answer-button">Clear Answer</div>
+                                <div class="finish-button" id="finish-button">Finish</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actual-exam-question-numbers">
+                        <div class="questions-header">
+                            <img class="guidelines-icon" src="../images/info-icon.png"><span
+                                class="header-text">Guidelines</span>
+                        </div>
+                        <div class="my-hr"></div>
+                        <div class="white-guidelines">
+                            <div class="seventy-percent">Subject:</div>
+                            <div class="thirty-percent">English</div>
+                        </div>
+                        <div class="grey-guidelines">
+                            <div class="seventy-percent">Session:</div>
+                            <div class="thirty-percent">2018/2019</div>
+                        </div>
+                        <div class="white-guidelines">
+                            <div class="seventy-percent">Term:</div>
+                            <div class="thirty-percent">1st Term</div>
+                        </div>
+                        <div class="grey-guidelines">
+                            <div class="seventy-percent">Duration:</div>
+                            <div class="thirty-percent">30 Minutes</div>
+                        </div>
+                        <div class="white-guidelines">
+                            <div class="seventy-percent">Time Left:</div>
+                            <div class="thirty-percent">26:17</div>
+                        </div>
+                        <div class="question-palatte"></div>
+                    </div>
+                </div>
+                <div id="questions-section">
+                    <div class="create-question-preamble">
+                        <div class="questions-header">
+                            <span class="header-text">Add Questions</span>
+                        </div>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'London')">Academic Session</button>
+                            <button class="tablinks" onclick="openCity(event, 'Paris')">Term</button>
+                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Subject</button>
+                        </div>
+                        <!-- Tab content -->
+                        <div id="London" class="tabcontent">
+                            <h3>London</h3>
+                            <p>London is the capital city of England.</p>
+                        </div>
+
+                        <div id="Paris" class="tabcontent">
+                            <h3>Paris</h3>
+                            <p>Paris is the capital of France.</p>
+                        </div>
+
+                        <div id="Tokyo" class="tabcontent">
+                            <h3>Tokyo</h3>
+                            <p>Tokyo is the capital of Japan.</p>
+                        </div>
+                    </div>
+                    <div class="actual-create-question"></div>
+                </div>
+                <div id="students-section">
+                    <h1>Students</h1>
+                </div>
+                <div id="view-result-section">
+                    <h1>View result</h1>
+                </div>
+                <div id="settings-section">
+                    <h1>Settings</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- The add-session Modal -->
+    <div id="add-session-modal" class="modal">
+        <!--add-session Modal content -->
+        <div class="modal-content">
+            <span id="add-session-close" class="close">&times;</span>
+            <h3>Add Session</h3>
+            <div class="dialog-content">
+                <div class="centralize-children">
+                    <span class="special-span">Title of Session:</span>
+                    <input type="text" class="data-field" placeholder="e.g  2018/2019" id="title-of-session-field">
+                </div>
+                <div class="centralize-children" id="sav-can">
+                    <button class="save-button" id="save-session">Save</button>
+                    <button class="cancel-button" id="cancel-session">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The view-session Modal -->
+    <div id="view-session-modal" class="modal">
+        <!--view-session Modal content -->
+        <div class="modal-content">
+            <span id="view-session-close" class="close">&times;</span>
+            <h3>View Session</h3>
+
+        </div>
+    </div>
+    <!-- The add-term Modal -->
+    <div id="add-term-modal" class="modal">
+        <!--add-term Modal content -->
+        <div class="modal-content">
+            <span id="add-term-close" class="close">&times;</span>
+            <h3>Add Term</h3>
+            <div class="dialog-content">
+                <div class="centralize-children" id="term-first-row">
+                    <span class="special-span">Start Date:</span>
+                    <input type="date" name="dateofbirth" class="datepicker" id="term-start-date">
+                </div>
+                <div class="centralize-children" id="term-first-row">
+                    <span class="special-span">End Date:</span>
+                    <input type="date" name="dateofbirth" class="datepicker" id="term-end-date">
+                </div>
+                <div class="centralize-children">
+                    <span class="special-span">Title:</span>
+                    <input type="text" class="data-field" placeholder="e.g  First Term" id="term-title">
+                </div>
+                <div class="centralize-children" id="sav-can2">
+                    <button class="save-button" id="save-term">Save</button>
+                    <button class="cancel-button" id="cancel-term">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The view-term Modal -->
+    <div id="view-term-modal" class="modal">
+        <!--view-term Modal content -->
+        <div class="modal-content">
+            <span id="view-term-close" class="close">&times;</span>
+            <h3>View Term</h3>
+        </div>
+    </div>
+    <!-- The add-subject Modal -->
+    <div id="add-subject-modal" class="modal">
+        <!--add-subject Modal content -->
+        <div class="modal-content">
+            <span id="add-subject-close" class="close">&times;</span>
+            <h3>Add Subject</h3>
+            <div class="dialog-content">
+                <div class="centralize-children">
+                    <span class="special-span">Title of Subject:</span>
+                    <input type="text" class="data-field" placeholder="e.g  Chemistry" id="subject-title-field">
+                </div>
+                <div class="centralize-children" id="sav-can">
+                    <button class="save-button" id="save-subject">Save</button>
+                    <button class="cancel-button" id="cancel-subject">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The view-subject Modal -->
+    <div id="view-subject-modal" class="modal">
+        <!--view-subject Modal content -->
+        <div class="modal-content">
+            <span id="view-subject-close" class="close">&times;</span>
+            <h3>View Subjects</h3>
+        </div>
+    </div>
+    <!-- The add-student Modal -->
+    <div id="add-student-modal" class="modal">
+        <!--add-student Modal content -->
+        <div class="modal-content">
+            <span id="add-student-close" class="close">&times;</span>
+            <h3>Add Student</h3>
+            <div class="dialog-content">
+                <div class="centralize-children">
+                    <input type="text" class="data-field" placeholder="Last Name" id="student-last-name">
+                    <input type="text" class="data-field" placeholder="First Name" id="student-first-name">
+                </div>
+                <div class="centralize-children inv">
+                    <select name="Class" required="" class="data-field" id="student-class">
+                        <option selected>Class</option>
+                        <option value="">SS1</option>
+                        <option value="">SS2</option>
+                        <option value="">SS3</option>
+                    </select>
+                    <input type="password" class="data-field" placeholder="Password" id="student-password">
+                </div>
+                <div id="add-can-st">
+                    <button class="save-button" id="save-student">Save</button>
+                    <button class="cancel-button" id="cancel-student">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The view-student Modal -->
+    <div id="view-student-modal" class="modal">
+        <!--view-student Modal content -->
+        <div class="modal-content">
+            <span id="view-student-close" class="close">&times;</span>
+            <h3>View Student</h3>
+        </div>
+    </div>
+    <!-- The add-teacher Modal -->
+    <div id="add-teacher-modal" class="modal">
+        <!--add-teacher Modal content -->
+        <div class="modal-content">
+            <span id="add-teacher-close" class="close">&times;</span>
+            <h3>Add Teacher</h3>
+            <div class="dialog-content">
+                <div class="centralize-children">
+                    <input type="text" class="data-field" placeholder="Last Name" id="teacher-last-name">
+                    <input type="text" class="data-field" placeholder="First Name" id="teacher-first-name">
+                </div>
+                <div class="centralize-children inv">
+                    <input type="text" class="data-field" placeholder="Staff Id" id="teacher-id">
+                    <input type="password" class="data-field" placeholder="Password" id="teacher-password">
+                </div>
+                <div id="add-can-st">
+                    <button class="save-button" id="save-teacher">Save</button>
+                    <button class="cancel-button" id="cancel-teacher">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The view-teacher Modal -->
+    <div id="view-teacher-modal" class="modal">
+        <!--view-teacher Modal content -->
+        <div class="modal-content">
+            <span id="view-teacher-close" class="close">&times;</span>
+            <h3>View Teacher</h3>
+        </div>
+    </div>
+    <!-- The add-class Modal -->
+    <div id="add-name-of-class-modal" class="modal">
+        <!--add-class Modal content -->
+        <div class="modal-content">
+            <span id="add-name-of-class-close" class="close">&times;</span>
+            <h3>Add Class</h3>
+            <div class="dialog-content">
+                <div class="centralize-children">
+                    <span class="special-span">Name of Class:</span>
+                    <input type="text" class="data-field" placeholder="e.g SS1" id="name-of-class-field">
+                </div>
+                <div class="centralize-children" id="sav-can">
+                    <button class="save-button" id="save-name-of-class">Save</button>
+                    <button class="cancel-button" id="cancel-name-of-class">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The view-name-of-class Modal -->
+    <div id="view-name-of-class-modal" class="modal">
+        <!--view-name-of-class Modal content -->
+        <div class="modal-content">
+            <span id="view-name-of-class-close" class="close">&times;</span>
+            <h3>View Admin</h3>
+        </div>
+    </div>
+    <!-- The term snackbar -->
+    <div id="snackbar"></div>
+
+</body>
+
+<script src="../javascript/indexscript.js "></script>
+<script src="../javascript/dashboardscript.js "></script>
+
+</html>
